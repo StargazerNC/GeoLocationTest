@@ -11,11 +11,18 @@
             Text="Welcome to Xamarin.Forms!"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-        <Label x:Name="lblLocation" />
-        <Label x:Name="lblLocation1" />
-        <Label x:Name="lblLocation2" />
-        <Label x:Name="lblLocation3" />
-        <Label x:Name="lblLocation4" />
+        <Label
+            x:Name="lblLocation"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Label
+            x:Name="lblLocation1"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Label
+            x:Name="lblLocation2"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
         <Button Text="Get Location" Clicked="Button_Clicked" />
     </StackLayout>
 
